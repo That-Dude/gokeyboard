@@ -90,6 +90,10 @@ And that's it, now when you press button on the keyboard it will show up in Home
 
 ## Build from source
 ```bash
+go mod init example.com/gokeyboard
+go get github.com/MarinX/keylogger
+go get github.com/eclipse/paho.mqtt.golang
+go get gopkg.in/yaml.v3
 go build gokeyboard.go
 ```
 
